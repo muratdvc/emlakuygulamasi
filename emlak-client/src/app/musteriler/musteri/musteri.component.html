@@ -1,0 +1,14 @@
+<div class="container">
+    <div class="row">
+        <div class="col-6 text-center">
+            <button class="btn btn-secondary mb-3" (click)="toggleMusteri()">Müşteri Kayıt</button>
+            <hr>
+            <app-alici-musteri *ngIf="musteriKayit"></app-alici-musteri>
+        </div>
+        <div class="col-6 text-center">
+            <button class="btn btn-secondary mb-3" (click)="toggleEv()">Ev Kayıt</button>
+            <hr>
+            <app-satici-musteri *ngIf="!musteriKayit"></app-satici-musteri>
+        </div>
+    </div>
+</div>

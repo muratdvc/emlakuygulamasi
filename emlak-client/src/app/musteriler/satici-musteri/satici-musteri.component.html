@@ -1,0 +1,73 @@
+<form [formGroup]="form">
+    <p class="h4 mb-4">Kişi Bilgileri</p>
+
+   <!-- Isim -->
+   <input 
+   type="text" 
+   name="Isim"
+   formControlName="isim"
+   class="form-control mb-4" 
+   placeholder="İsim">
+ 
+ <!-- CepTelefonNo -->
+ <input 
+   type="text" 
+   name="ceptelefonno"
+   formControlName="ceptelefonno"
+   class="form-control mb-4" 
+   placeholder="Cep Numarası">
+
+ <!-- Email -->
+ <input 
+   type="text" 
+   name="email"
+   formControlName="email"
+   class="form-control mb-4" 
+   placeholder="E-mail">
+
+  <!-- EvTuru -->
+  <label style="text-align: left;">Ev türü seçiniz.</label>
+  <select class="form-control mb-4" name="evturu" formControlName="evturu">
+    <option value="kiralik">Kiralık</option>
+    <option value="satilik">Satılık</option>
+  </select>
+
+  <h3>Emlak Bilgileri</h3>
+  <!-- Emlak Ilani -->
+  <div formArrayName="emlakIlanlari">
+    <div *ngFor="let emlak of form.get('emlakIlanlari')['controls']; index as i" [formGroupName]="i">
+      <input 
+      type="number" 
+      formControlName="alan"
+      class="form-control mb-4" 
+      placeholder="Alan">
+
+      <input 
+      type="number" 
+      formControlName="odasayisi"
+      class="form-control mb-4" 
+      placeholder="Oda Sayısı">
+
+      <input 
+      type="text" 
+      formControlName="kat"
+      class="form-control mb-4" 
+      placeholder="Kat">
+
+      <input 
+      type="number" 
+      formControlName="binakati"
+      class="form-control mb-4" 
+      placeholder="Bina Katı">
+   
+    </div>
+  </div>
+
+    
+    <button (click)="onSubmit()" class="btn btn-success my-4" type="submit">Ev ara!</button>
+  
+    <p>Ev aramadan devam et -
+      <a type="submit" class="btn btn-secondary">Kaydet</a>
+    </p>
+
+</form>

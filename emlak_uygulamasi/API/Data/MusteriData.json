@@ -1,0 +1,322 @@
+[
+  {
+    "Isim": "Wanda",
+    "CepTelefonNo": "+90 (801) 425-2589",
+    "Email": "wandaavery@applica.com",
+    "EvTuru": "kiralik",
+    "EmlakIlanlari": [
+      {
+        "EmlakTuru": "kiralik",
+        "Alan": 108,
+        "OdaSayisi": 4,
+        "Kat": "bodrum 2",
+        "BinaKati": 4,
+        "OlusturmaTarihi": "2021-01-30"
+      }
+    ]
+  },
+  {
+    "Isim": "Ingrid",
+    "CepTelefonNo": "+90 (866) 428-2760",
+    "Email": "ingridavery@applica.com",
+    "EvTuru": "kiralik",
+    "EmlakIlanlari": [
+      {
+        "EmlakTuru": "kiralik",
+        "Alan": 82,
+        "OdaSayisi": 4,
+        "Kat": "3",
+        "BinaKati": 5,
+        "OlusturmaTarihi": "2020-11-22"
+      }
+    ]
+  },
+  {
+    "Isim": "Lori",
+    "CepTelefonNo": "+90 (877) 555-3903",
+    "Email": "loriavery@applica.com",
+    "EvTuru": "satilik",
+    "EmlakIlanlari": [
+      {
+        "EvTuru": "satilik",
+        "Alan": 93,
+        "OdaSayisi": 4,
+        "Kat": "1",
+        "BinaKati": 4,
+        "OlusturmaTarihi": "2020-03-11"
+      }
+    ]
+  },
+  {
+    "Isim": "Cecile",
+    "CepTelefonNo": "+90 (918) 542-3334",
+    "Email": "cecileavery@applica.com",
+    "EvTuru": "kiralik",
+    "EmlakIlanlari": [
+      {
+        "EvTuru": "kiralik",
+        "Alan": 149,
+        "OdaSayisi": 0,
+        "Kat": "3",
+        "BinaKati": 2,
+        "OlusturmaTarihi": "2021-02-16"
+      }
+    ]
+  },
+  {
+    "Isim": "Latasha",
+    "CepTelefonNo": "+90 (925) 444-3837",
+    "Email": "latashaavery@applica.com",
+    "EvTuru": "kiralik",
+    "EmlakIlanlari": [
+      {
+        "EmlakTuru": "kiralik",
+        "Alan": 69,
+        "OdaSayisi": 1,
+        "Kat": "1",
+        "BinaKati": 3,
+        "OlusturmaTarihi": "2021-02-11"
+      }
+    ]
+  },
+  {
+    "Isim": "Mae",
+    "CepTelefonNo": "+90 (880) 553-3652",
+    "Email": "maeavery@applica.com",
+    "EvTuru": "kiralik",
+    "EmlakIlanlari": [
+      {
+        "EmlakTuru": "kiralik",
+        "Alan": 139,
+        "OdaSayisi": 2,
+        "Kat": "giris kat",
+        "BinaKati": 2,
+        "OlusturmaTarihi": "2020-10-06"
+      }
+    ]
+  },
+  {
+    "Isim": "Lakisha",
+    "CepTelefonNo": "+90 (968) 577-2413",
+    "Email": "lakishaavery@applica.com",
+    "EvTuru": "satilik",
+    "EmlakIlanlari": [
+      {
+        "EmlakTuru": "satilik",
+        "Alan": 127,
+        "OdaSayisi": 0,
+        "Kat": "bodrum 2",
+        "BinaKati": 3,
+        "OlusturmaTarihi": "2021-05-26"
+      }
+    ]
+  },
+  {
+    "Isim": "Lucia",
+    "CepTelefonNo": "+90 (832) 545-3253",
+    "Email": "luciaavery@applica.com",
+    "EvTuru": "satilik",
+    "EmlakIlanlari": [
+      {
+        "EmlakTuru": "satilik",
+        "Alan": 104,
+        "OdaSayisi": 3,
+        "Kat": "2",
+        "BinaKati": 5,
+        "OlusturmaTarihi": "2020-08-28"
+      }
+    ]
+  },
+  {
+    "Isim": "Celina",
+    "CepTelefonNo": "+90 (861) 475-3004",
+    "Email": "celinaavery@applica.com",
+    "EvTuru": "satilik",
+    "EmlakIlanlari": [
+      {
+        "EmlakTuru": "satilik",
+        "Alan": 101,
+        "OdaSayisi": 3,
+        "Kat": "3",
+        "BinaKati": 5,
+        "OlusturmaTarihi": "2020-08-23"
+      }
+    ]
+  },
+  {
+    "Isim": "Karen",
+    "CepTelefonNo": "+90 (851) 430-3150",
+    "Email": "karenavery@applica.com",
+    "EvTuru": "satilik",
+    "EmlakIlanlari": [
+      {
+        "EmlakTuru": "satilik",
+        "Alan": 68,
+        "OdaSayisi": 4,
+        "Kat": "2",
+        "BinaKati": 4,
+        "OlusturmaTarihi": "2021-02-13"
+      }
+    ]
+  },
+  {
+    "Isim": "Sheri",
+    "CepTelefonNo": "+90 (843) 479-2363",
+    "Email": "sheriavery@applica.com",
+    "EvTuru": "satilik",
+    "EmlakIlanlari": [
+      {
+        "EmlakTuru": "satilik",
+        "Alan": 83,
+        "OdaSayisi": 3,
+        "Kat": "bodrum 1",
+        "BinaKati": 2,
+        "OlusturmaTarihi": "2020-04-29"
+      }
+    ]
+  },
+  {
+    "Isim": "Judith",
+    "CepTelefonNo": "+90 (965) 578-2902",
+    "Email": "judithavery@applica.com",
+    "EvTuru": "satilik",
+    "EmlakIlanlari": [
+      {
+        "EmlakTuru": "satilik",
+        "Alan": 61,
+        "OdaSayisi": 4,
+        "Kat": "bodrum 2",
+        "BinaKati": 4,
+        "OlusturmaTarihi": "2020-03-26"
+      }
+    ]
+  },
+  {
+    "Isim": "Dora",
+    "CepTelefonNo": "+90 (847) 508-2789",
+    "Email": "doraavery@applica.com",
+    "EvTuru": "satilik",
+    "EmlakIlanlari": [
+      {
+        "EmlakTuru": "satilik",
+        "Alan": 85,
+        "OdaSayisi": 2,
+        "Kat": "2",
+        "BinaKati": 4,
+        "OlusturmaTarihi": "2020-08-10"
+      }
+    ]
+  },
+  {
+    "Isim": "Helene",
+    "CepTelefonNo": "+90 (992) 437-3066",
+    "Email": "heleneavery@applica.com",
+    "EvTuru": "satilik",
+    "EmlakIlanlari": [
+      {
+        "EmlakTuru": "satilik",
+        "Alan": 78,
+        "OdaSayisi": 1,
+        "Kat": "2",
+        "BinaKati": 2,
+        "OlusturmaTarihi": "2021-02-13"
+      }
+    ]
+  },
+  {
+    "Isim": "Aileen",
+    "CepTelefonNo": "+90 (858) 472-2967",
+    "Email": "aileenavery@applica.com",
+    "EvTuru": "kiralik",
+    "EmlakIlanlari": [
+      {
+        "EmlakTuru": "kiralik",
+        "Alan": 87,
+        "OdaSayisi": 1,
+        "Kat": "bodrum 2",
+        "BinaKati": 3,
+        "OlusturmaTarihi": "2020-02-20"
+      }
+    ]
+  },
+  {
+    "Isim": "Robin",
+    "CepTelefonNo": "+90 (851) 500-3357",
+    "Email": "robinavery@applica.com",
+    "EvTuru": "satilik",
+    "EmlakIlanlari": [
+      {
+        "EmlakTuru": "satilik",
+        "Alan": 149,
+        "OdaSayisi": 1,
+        "Kat": "giris kat",
+        "BinaKati": 2,
+        "OlusturmaTarihi": "2020-11-01"
+      }
+    ]
+  },
+  {
+    "Isim": "Autumn",
+    "CepTelefonNo": "+90 (858) 546-2661",
+    "Email": "autumnavery@applica.com",
+    "EvTuru": "satilik",
+    "EmlakIlanlari": [
+      {
+        "EmlakTuru": "satilik",
+        "Alan": 120,
+        "OdaSayisi": 4,
+        "Kat": "bodrum 2",
+        "BinaKati": 2,
+        "OlusturmaTarihi": "2020-07-06"
+      }
+    ]
+  },
+  {
+    "Isim": "Taylor",
+    "CepTelefonNo": "+90 (992) 507-3906",
+    "Email": "tayloravery@applica.com",
+    "EvTuru": "satilik",
+    "EmlakIlanlari": [
+      {
+        "EmlakTuru": "satilik",
+        "Alan": 103,
+        "OdaSayisi": 1,
+        "Kat": "2",
+        "BinaKati": 4,
+        "OlusturmaTarihi": "2021-03-16"
+      }
+    ]
+  },
+  {
+    "Isim": "Carmela",
+    "CepTelefonNo": "+90 (820) 455-3224",
+    "Email": "carmelaavery@applica.com",
+    "EvTuru": "kiralik",
+    "EmlakIlanlari": [
+      {
+        "EmlakTuru": "kiralik",
+        "Alan": 140,
+        "OdaSayisi": 0,
+        "Kat": "1",
+        "BinaKati": 2,
+        "OlusturmaTarihi": "2020-05-04"
+      }
+    ]
+  },
+  {
+    "Isim": "Joanna",
+    "CepTelefonNo": "+90 (839) 540-3729",
+    "Email": "joannaavery@applica.com",
+    "EvTuru": "satilik",
+    "EmlakIlanlari": [
+      {
+        "EmlakTuru": "satilik",
+        "Alan": 74,
+        "OdaSayisi": 3,
+        "Kat": "2",
+        "BinaKati": 3,
+        "OlusturmaTarihi": "2020-08-07"
+      }
+    ]
+  }
+]

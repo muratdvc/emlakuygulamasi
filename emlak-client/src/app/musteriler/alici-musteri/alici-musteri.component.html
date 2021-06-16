@@ -1,0 +1,45 @@
+<form #musteriForm="ngForm">
+    <p class="h4 mb-4">Müşteri Bilgileri</p>
+    
+    <!-- Isim -->
+    <input 
+      type="text" 
+      name="Isim"
+      [(ngModel)]="model.Isim"
+      class="form-control mb-4" 
+      placeholder="İsim">
+    
+    <!-- CepTelefonNo -->
+    <input 
+      type="text" 
+      name="ceptelefonno"
+      [(ngModel)]="model.CepTelefonNo" 
+      class="form-control mb-4" 
+      placeholder="Cep Numarası">
+
+    <!-- Email -->
+    <input 
+      type="text" 
+      name="email"
+      [(ngModel)]="model.Email"
+      class="form-control mb-4" 
+      placeholder="E-mail">
+  
+    <!-- EvTuru -->
+    <label style="text-align: left;">Ev türü seçiniz.</label>
+    <select class="form-control mb-4" name="EvTuru" [(ngModel)]="model.EvTuru">
+      <option value="kiralik">Kiralık</option>
+      <option value="satilik">Satılık</option>
+    </select>
+  
+  
+  
+    <!-- Sign in button -->
+    <button (click)="submit()" class="btn btn-success my-4" type="submit">Ev ara!</button>
+  
+    <!-- Register -->
+    <p>Ev aramadan devam et -
+      <a type="submit" class="btn btn-secondary" (click)="kaydet()">Kaydet</a>
+    </p>
+
+</form>

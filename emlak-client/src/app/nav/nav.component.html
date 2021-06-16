@@ -1,0 +1,42 @@
+<nav class="navbar navbar-expand-md navbar-dark  bg-primary">
+    <div class="container">
+        <a class="navbar-brand" routerLink='/' routerLinkActive='active'>Emlak Uygulaması</a>
+
+        <ul class="navbar-nav mr-auto">
+            <ng-container *ngIf="musteriService.currentUser$| async">
+                <li class="nav-item">
+                    <a class="nav-link" routerLink='/musteriler' routerLinkActive='active' >Müşteriler</a>
+                </li>
+                <!-- <li class="nav-item">
+                    <a class="nav-link" routerLink='/lists' routerLinkActive='active'>Lists</a>
+                </li> -->
+                <li class="nav-item">
+                    <a class="nav-link" routerLink='/messages'routerLinkActive='active' >Bildirimler</a>
+                </li>
+
+            </ng-container>
+        </ul>
+
+        <div class="dropdown" *ngIf="(musteriService.currentUser$ | async) as user" dropdown>
+            <button class="btn btn-dark" (click)="logout()">Çıkış</button>
+        </div>
+
+        <form *ngIf="(musteriService.currentUser$ | async) === null" #loginForm="ngForm" class="form-inline mt-2 mt-md-0" (ngSubmit)="login()" 
+            autocomplete="off">
+            <input 
+                name="username"
+                [(ngModel)]="model.username"
+                class="form-control mr-sm-2" 
+                type="text" 
+                placeholder="Username">
+            <input 
+                name="password"
+                [(ngModel)]="model.password"
+                class="form-control mr-sm-2" 
+                type="password" 
+                placeholder="Password">
+            <button class="btn btn-success my-2 my-sm-0" type="submit">Login</button>
+        </form>
+    </div>
+
+</nav>

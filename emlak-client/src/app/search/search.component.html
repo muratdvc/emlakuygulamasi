@@ -1,0 +1,18 @@
+<div class="row">
+        <div class="card mb-4  col-3" *ngFor="let emlak of emlakIlanlari">
+            <div class="card-img-wrapper">
+                <h2 class="card-title text-center mt-1"><i class="fa fa-user mr-2"></i>
+                    {{emlak.emlakTuru | uppercase}} 
+                </h2>
+            </div>
+            <div class="card-body p-1"> <!-- p: padding 1: 1px -->
+                <p class="card-text text-muted text-center">Alan: {{emlak.alan}} m²</p>
+                <p class="card-text text-muted text-center">Oda sayisi: {{emlak.odaSayisi}}</p>
+                <p class="card-text text-muted text-center">Kat: {{emlak.kat}}</p>
+                <p class="card-text text-muted text-center">Bina kati: {{emlak.binaKati}}</p>
+                <!-- <h6 class="card-title text-center mb-1"><i class="fa fa-user mr-2"></i>
+                    Olusturulma Tarihi{{emalk.olusturmaTarihi | date}} 
+                </h6> -->
+            </div>
+        </div>
+</div>
